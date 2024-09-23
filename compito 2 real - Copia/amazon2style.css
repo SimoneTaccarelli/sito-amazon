@@ -1,0 +1,393 @@
+body{
+    height: 2000px;
+}
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+body{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+header{
+    background-color: rgb(37 47 69);
+    opacity: 30;
+}
+
+header p{
+    color: white;
+    display: inline;
+    margin-inline: 5px;
+    margin-top: 5px;
+}
+
+.menu{
+    background-color: rgb(45 72 103);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+}
+
+.amazon img{
+    width: 13%;
+    padding-left: 16px;
+    height: 47px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.Holidays{
+    text-align: center;
+    background-color: #ff8100;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    margin-top: 28px;
+    color: white;
+}
+
+.Gift p{
+    text-align: center;
+    background-image: url(bg-image.png);
+    padding: 50px;
+    font-size: 26px;
+    color: white;
+}
+
+/*prima sezione*/
+
+main{
+    padding: 2rem;
+    background-color: #eaeded;
+}
+
+#perfectGift{   
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+#perfectGift img{
+    object-fit: cover;
+    width: 283px;
+    height: 362px;
+    border-radius: 20px;
+    margin: 1rem;
+}
+
+.perfectimg{
+    text-align: center;
+}
+
+.regalo{
+    font-size: 23px;
+}
+
+.compra{
+    margin-left: 20px;
+    color: #13a9a9;
+    font-weight: bold;
+
+}
+/* sezione due*/
+
+#sezDue{
+    background-color: #eaeded ;
+    display: flex;
+    gap: 70px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.contOne{
+    width: 250px;
+    height: 434pxpx;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.gamingOne{
+    position: absolute;
+    display: flex;
+    padding-top: 20px;
+    font-size: small;
+    margin-left: 3px;
+    
+}
+
+.gaming{ 
+    position: absolute;
+    margin: 1rem;
+}
+.gaming img {
+    width: 100px;
+}
+
+.contOne nav{
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: larger;
+}
+
+.gamingTwo{
+    position: absolute;
+    display: flex;
+    padding-top:  140px;
+    font-size: small;
+    margin-left: 3px;
+}
+
+.gaming p {
+    display: inline-block;
+    position: relative;
+    bottom: -270px;
+    margin: 2rem;
+    font-size: small;
+    color: #56a992;
+}
+
+
+.contTwo{
+    width: 274px;
+    height: 434px;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+}
+
+.style {
+    position: absolute;
+    margin: 1rem;
+
+}
+
+.styleOne{
+    display: flex;
+}
+
+.style img {
+    width: 100px;
+}
+
+.contImg{
+    position: relative;
+}
+
+.new img { 
+    position: absolute;
+    width: 43px;
+    top: 35px;
+    left: 70px;
+}
+
+.intestCont{
+    font-weight: bold;
+    padding: 1rem;
+    font-size: larger;
+}
+
+.styleTwo{
+    position: absolute;
+    display: flex;
+    padding-top:  55px;
+    font-size: small;
+    margin-left: 3px;
+    gap: 30px;
+
+}
+
+.newArt img{
+    position: relative;
+}
+
+.newTwo img{
+    position: absolute;
+    width: 43px;
+    left: 194px;
+    bottom: -2px;
+}
+
+.style p{
+     display: inline-block;
+    position: relative;
+    bottom: -184px;
+    margin: 2rem;
+    font-size: small;
+    color: #56a992;
+}
+
+.intestHoly{
+   font-weight: bold;
+    padding: 1rem;
+    font-size: larger; 
+}
+
+.contThree{
+    width: 274px;
+    height: 434px;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+}
+.holyday{
+    position: absolute;
+    margin: 1rem;
+      
+}
+
+
+.holydayOne img{
+    width: 100px;
+}
+.holydayOne{
+    display: flex;
+
+}
+
+.holynew{
+    position: relative;
+}
+
+
+.newThree img{
+    position: absolute;
+    width: 43px;
+    top: 35px;
+    left: 70px;
+}
+
+.holydayTwo{
+    position: absolute;
+    display: flex;
+    padding-top:  55px;
+    font-size: small;
+    margin-left: 3px;
+    gap: 30px;
+}
+
+.holydayTwo img{
+    width: 100px;
+}
+
+.holyday p{
+    display: inline-block;
+    position: relative;
+    bottom: -184px;
+    margin: 2rem;
+    font-size: small;
+    color: #56a992;
+}
+
+#sezTre{
+    background-color: #eaeded ;
+    display: flex;
+    gap: 70px;
+    width: 100%;
+   
+}
+
+.whishlist{
+    width: 250px;
+    height: 434px;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+}
+
+.whish{
+    position: absolute;
+}
+
+.wish img{
+    width: 100px;
+}
+
+.wishOne{
+    display: flex;
+    margin: 1rem;
+    font-size: small;
+}
+
+.intestWish span{
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 23px;
+    display: inline-block;
+    
+}
+
+.wishTwo {
+    display: flex;
+    margin: 1rem;
+    font-size: small;
+}
+
+.wish p{
+    display: inline-block;
+    position: absolute;
+    bottom: 64px;
+    margin: 2rem;
+    font-size: small;
+    color: #56a992; 
+}
+
+.picOne img{
+    width: 100%;
+}
+
+
+#firstimg{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.picTwo{
+    padding-top: 45px;
+}
+.top{
+    text-align: center;
+    background-color: rgb(45 72 103);
+    height: 52px;
+    align-content: center;
+}
+.top a {
+    color: white;
+}
+
+
+.logofooter{
+    background-color: rgb(37 47 69);
+    height: 180px;
+    text-align: center;
+}
+
+.logofooter img{
+    width: 200px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
